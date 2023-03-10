@@ -118,7 +118,9 @@ a{
     padding: 0 10px;
 }
 
-
+.none{
+    display: none !important;
+}
 
 
 
@@ -141,12 +143,12 @@ a{
 .header{
     display: block;
     position: relative;
-    height: 900px;
+    height: 800px;
 }
 .nav{
    
     position: sticky;
-    z-index: 150;
+    z-index: 350;
     top: 0;
     color: bisque;
 }
@@ -173,43 +175,45 @@ height: 50px;
     
 }
 .section-1{
-    width: 100%;
+    width: 1440px;
     height: 850px;
     position: absolute;
-    left: 0;
     top: -50px;
-}
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 
-.section-text{
+    background-image: url(../img/header/Фон.png);
+} 
+
+
+.section-text{ 
     position: absolute;
     font-weight: 300;
     font-size: 46px;
     line-height: 54px;
-    letter-spacing: -0.024em;
     color: bisque;
     text-align: center;
-    margin-top: 320px;
-    margin-left: 470px;
+    margin-bottom: 80px;
+ 
 }
 .section-text-1{
     position: absolute;
    font-weight: 700;
    font-size: 25px;
-    letter-spacing: -0.024em;
+   
     color: bisque;
     text-align: center;
-    margin-top: 350px;
-    margin-left: 550px;
+  
 }
 .section-text-2{
     position: absolute;
-   
-    letter-spacing: -0.024em;
+   margin-top: 80px;
+    
     color: bisque;
     text-align: center;
-    margin-top: 400px;
-    margin-left: 540px;
-}
+
+} 
 
 .main-text{
     text-align: center;
@@ -286,11 +290,14 @@ gap: 0 15px;
     text-transform: capitalize;
     text-align: center;
 }
-
+.footer-2{
+    margin-top: 20px;
+}
 .footer-text{
     width: 200px;
     height: 200px;
     text-align: left;
+    margin-top: 20px;
 }
 .icon{
     width: 40px;

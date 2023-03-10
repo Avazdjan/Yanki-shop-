@@ -1,0 +1,158 @@
+@media(max-width:420px){
+        body{
+                 font-size: 12px;
+                 font-weight: 400;
+                 line-height: 1.2;
+                 font-style: normal;
+                 font-family: serif;
+             }
+          
+             a{
+                 text-decoration: none;
+                 color: inherit;
+               }
+               li{
+                 list-style: none;
+               }
+             .container{
+                 max-width: 420px;
+                 height: 100%;
+                 margin: 0 auto;  
+             }  
+             .header{
+               display: block;
+               position: relative;
+               height: 660px;
+           }
+           .nav{
+               position: sticky;
+               z-index: 15;
+               top: 0;
+               color: bisque;
+           }
+           .header-left-items{
+           flex-basis: 50%;
+           height: 40px;
+           }
+           .header-right-items{
+               flex-basis: 50%;
+           height: 40px;
+           }
+           .header-text{
+               font-size: 40px;
+               position: absolute;
+               margin-left: 140px;
+           }
+           .header-icons{
+               width: 20px;
+               height: 20px;
+           }
+             .icon-none{
+               display: none !important;
+             } 
+               .section-1{
+                 width: 420px;
+                 height: 700px;
+                background-image: none;
+                 display: flex;
+                 background-image: url(../img/header/Yanki-1.png);
+                 background-repeat: no-repeat;
+                 align-items: center;
+                 justify-content: center;
+               }
+               .section-text{
+                 font-size: 24px;
+                 margin: 0 auto;
+                 margin-bottom: 60px;
+               }
+               .section-text-1{
+                 font-size: 16px;
+                 margin: 0 auto; 
+               }
+               .section-text-2{
+                 margin-top: 60px;
+                 font-size: 10px;
+                 margin: 0 auto; 
+               }
+
+
+            
+
+               .category{
+                 padding: 0;
+                 padding-bottom:50px ;
+               }
+               .img-main{
+                 width: 100%;
+                 height: 100%;
+                 overflow: hidden;
+     text-overflow: ellipsis; 
+         white-space: nowrap; 
+     transform: translateX(-400px 400px); 
+       }
+
+       .next-arrow{  
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        position: absolute;
+        transition: all 0.3s ease-in-out ;
+    
+        margin-top: 50px;
+        margin-left: 100px;
+       }
+
+
+     .main-img{
+       width: 170px;
+       height: 230px;
+     }
+     .img-text{
+       width: 155px;
+       height: 30px;
+     } 
+     .footer{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     }
+     .email{
+       width: 335px;
+       height: 40px;
+     }
+     .button{
+       width: 335px;
+       height: 40px;
+     }
+     .p-text{
+       width: 335px;
+       height: 100%;
+       text-align: center;
+     }
+     .footer-2{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     
+       flex-direction: column;
+       font-size: 22px;
+     }
+     .footer-text{
+       width: 100%;
+       height: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+     }
+     .icon{
+       width: 20px;
+       height: 20px;
+     }
+     }
+
+     .main-none{
+        display: none !important;
+     }
